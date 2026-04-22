@@ -1,0 +1,42 @@
+2026-04-22 00:38:04 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=SELL type=MARKET qty=0.01 price=None
+2026-04-22 00:38:05 | ERROR    | bot.client | Binance API error — HTTP 401 | code=-2015 | msg=Invalid API-key, IP, or permissions for action
+2026-04-22 00:38:05 | ERROR    | bot.orders | MARKET order failed — symbol=BTCUSDT side=SELL qty=0.01
+2026-04-22 00:39:38 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=SELL type=MARKET qty=0.01 price=None
+2026-04-22 00:39:39 | ERROR    | bot.client | Binance API error — HTTP 401 | code=-2015 | msg=Invalid API-key, IP, or permissions for action
+2026-04-22 00:39:39 | ERROR    | bot.orders | MARKET order failed — symbol=BTCUSDT side=SELL qty=0.01
+2026-04-22 00:44:02 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=SELL type=MARKET qty=0.01 price=None
+2026-04-22 00:44:03 | DEBUG    | bot.client | Order response — orderId=13058687475 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-22 00:44:03 | INFO     | bot.orders | MARKET order placed successfully — orderId=13058687475 status=NEW
+2026-04-22 00:45:10 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=BUY type=MARKET qty=0.01 price=None
+2026-04-22 00:45:10 | DEBUG    | bot.client | Order response — orderId=13058690599 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-22 00:45:10 | INFO     | bot.orders | MARKET order placed successfully — orderId=13058690599 status=NEW
+2026-04-22 00:47:31 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=BUY type=MARKET qty=1.0 price=None
+2026-04-22 00:47:31 | DEBUG    | bot.client | Order response — orderId=13058696642 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-22 00:47:31 | INFO     | bot.orders | MARKET order placed successfully — orderId=13058696642 status=NEW
+2026-04-22 00:49:45 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=BUY type=MARKET qty=1.0 price=None
+2026-04-22 00:49:45 | ERROR    | bot.client | Binance API error — HTTP 400 | code=-2019 | msg=Margin is insufficient.
+2026-04-22 00:49:45 | ERROR    | bot.orders | MARKET order failed — symbol=BTCUSDT side=BUY qty=1.0
+2026-04-22 00:49:53 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=BUY type=MARKET qty=0.01 price=None
+2026-04-22 00:49:53 | DEBUG    | bot.client | Order response — orderId=13058702615 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-22 00:49:53 | INFO     | bot.orders | MARKET order placed successfully — orderId=13058702615 status=NEW
+2026-04-22 00:49:56 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=BUY type=MARKET qty=1.0 price=None
+2026-04-22 00:49:56 | ERROR    | bot.client | Binance API error — HTTP 400 | code=-2019 | msg=Margin is insufficient.
+2026-04-22 00:49:56 | ERROR    | bot.orders | MARKET order failed — symbol=BTCUSDT side=BUY qty=1.0
+2026-04-22 00:49:59 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=SELL type=MARKET qty=0.01 price=None
+2026-04-22 00:50:00 | DEBUG    | bot.client | Order response — orderId=13058702809 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-22 00:50:00 | INFO     | bot.orders | MARKET order placed successfully — orderId=13058702809 status=NEW
+2026-04-22 00:50:05 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=BUY type=MARKET qty=0.01 price=None
+2026-04-22 00:50:05 | DEBUG    | bot.client | Order response — orderId=13058703039 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-22 00:50:05 | INFO     | bot.orders | MARKET order placed successfully — orderId=13058703039 status=NEW
+2026-04-22 00:50:11 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=BUY type=MARKET qty=0.01 price=None
+2026-04-22 00:50:11 | DEBUG    | bot.client | Order response — orderId=13058703340 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-22 00:50:11 | INFO     | bot.orders | MARKET order placed successfully — orderId=13058703340 status=NEW
+2026-04-22 00:51:27 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=BUY type=MARKET qty=0.01 price=None
+2026-04-22 00:51:28 | DEBUG    | bot.client | Order response — orderId=13058706736 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-22 00:51:28 | INFO     | bot.orders | MARKET order placed successfully — orderId=13058706736 status=NEW
+2026-04-22 17:56:40 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=BUY type=LIMIT qty=0.2 price=90000.0
+2026-04-22 17:56:40 | ERROR    | bot.client | Binance API error — HTTP 400 | code=-4016 | msg=Limit price can't be higher than 82124.02.
+2026-04-22 17:56:40 | ERROR    | bot.orders | LIMIT order failed — symbol=BTCUSDT side=BUY qty=0.2 price=90000.0
+2026-04-22 17:57:10 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=BUY type=LIMIT qty=0.2 price=75826.0
+2026-04-22 17:57:11 | DEBUG    | bot.client | Order response — orderId=13061318870 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-22 17:57:11 | INFO     | bot.orders | LIMIT order placed successfully — orderId=13061318870 status=NEW
