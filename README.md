@@ -15,7 +15,7 @@ A lightweight Python CLI application that places **Market** and **Limit** orders
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/trading_bot.git
+git clone https://github.com/AchalG2380/Trading_bot
 cd trading_bot
 
 # 2. Install dependencies
