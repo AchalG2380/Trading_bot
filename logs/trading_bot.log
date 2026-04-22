@@ -40,3 +40,6 @@
 2026-04-22 17:57:10 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=BUY type=LIMIT qty=0.2 price=75826.0
 2026-04-22 17:57:11 | DEBUG    | bot.client | Order response — orderId=13061318870 status=NEW executedQty=0.0000 avgPrice=0.00
 2026-04-22 17:57:11 | INFO     | bot.orders | LIMIT order placed successfully — orderId=13061318870 status=NEW
+2026-04-22 18:08:17 | DEBUG    | bot.client | Outgoing order request — symbol=BTCUSDT side=SELL type=MARKET qty=0.02 price=None
+2026-04-22 18:08:17 | DEBUG    | bot.client | Order response — orderId=13061348685 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-22 18:08:17 | INFO     | bot.orders | MARKET order placed successfully — orderId=13061348685 status=NEW
